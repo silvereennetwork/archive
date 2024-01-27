@@ -2,15 +2,15 @@
 
 All assets to Silvereen Games open source projects
 
-##Installation
+## Installation
 
 This site can be accessed from https://archive.silvereen.net but if you want to deploy on your own system then:
 
-###Test
+### Test
 
 `npm run dev`
 
-###For production builds
+### For production builds
 
 `npm run build`
 

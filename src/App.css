@@ -1,0 +1,73 @@
+* {
+  background-color: #292929;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.center {
+  text-align: center;
+}
+
+.objects-container {
+  display: flex;
+  flex-direction: row; /* Ensure items are laid out in a row */
+  justify-content: space-around; /* This will add space between the items */
+  align-items: flex-start; /* Align items at the top */
+  flex-wrap: wrap; /* Wrap items onto the next line if there's not enough space */
+  margin: 0 -2.5px; /* This helps to negate the effect of the gap on the outer edges */
+}
+
+.object-div {
+  display: flex;
+  flex-direction: column; /* Align children of .object-div in a column */
+  align-items: center; /* Center-align the children */
+  background-color: #1a1a1a;
+  height: 300px;
+  width: 200px;
+  margin: 0 2.5px; /* This adds a 5px gap in total between items */
+  border-radius: 18px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.object-div:hover{
+  width: 210px;
+  height: 315px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.object-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.object-title {
+  color: white;
+  text-align: center;
+  margin-top: 10px; /* Adjust if needed */
+  font-size: 18px; /* Adjust if needed */
+  font-weight: bold;
+  background-color: #1a1a1a;
+}
+
+.object-description {
+  font-size: 11px;
+  text-align: center;
+  background-color: #1a1a1a
+}
+
+hr {
+  border: 2px white solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 5px;
+}

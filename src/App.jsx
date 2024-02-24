@@ -9,6 +9,14 @@ const games = [
     download:
       "https://moonlight.silvereen.net/src/static/games/ball-dodge/ball-dodge.zip",
   },
+  {
+    name: "3kh0 Assets",
+    image: "http://web.archive.org/web/20230416012103if_/https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0TEMP@main/images/logo.png",
+    link: "https://moonlight.silvereen.net/src/static/games/ball-dodge/index.html",
+    description: "Yes... all the games",
+    download:
+      "https://moonlight.silvereen.net/src/static/games/ball-dodge/ball-dodge.zip",
+  },
 ];
 
 const sites = [
